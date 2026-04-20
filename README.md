@@ -20,10 +20,12 @@ kind create cluster --name=primeiro-cluster
 ```
 
 ```sh
-kubectl cluster-info --context primeiro-cluster
+kubectl cluster-info --context kind-primeiro-cluster
 ```
-```sh
 
+List nodes:
+```sh
+kubectl get nodes
 ```
 ```sh
 
