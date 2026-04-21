@@ -31,10 +31,14 @@ kubectl get nodes
 List Pods:
 ```sh
 kubectl get pods
+```
 
 List Pods (from a namespace):
-```
-kubectl get pods -n kube-system
 ```sh
+kubectl get pods -n kube-system
+```
 
+Delete a cluster
+```sh
+kind delete cluster --name=primeiro-cluster
 ```
