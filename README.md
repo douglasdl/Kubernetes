@@ -27,9 +27,14 @@ List nodes:
 ```sh
 kubectl get nodes
 ```
-```sh
 
+List Pods:
+```sh
+kubectl get pods
+
+List Pods (from a namespace):
 ```
+kubectl get pods -n kube-system
 ```sh
 
 ```
