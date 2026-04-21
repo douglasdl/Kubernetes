@@ -42,3 +42,13 @@ Delete a cluster
 ```sh
 kind delete cluster --name=primeiro-cluster
 ```
+
+Create a cluster using a kind.yaml config file:
+```sh
+kind create cluster --config kind.yaml --name=segundo-cluster
+```
+
+Use the cluster:
+```sh
+kubectl cluster-info --context kind-segundo-cluster
+```
